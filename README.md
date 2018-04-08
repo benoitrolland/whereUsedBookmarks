@@ -10,6 +10,7 @@ I see several possible implementations:
     * unfold path and show siblings on specific right-click context menu "whereUsed"
     * reload the full bookmark view, still selecting the bookmark from witch the context "whereUsed" menu was clicked on.
     * put the folder-path as link to parent folder as an additional properties information.
+    * best implementation would provides the list of inverted folder path as menus or like, allowing to reach ancestors folders at any level.
 
 # Context menu: Where Used
 
@@ -18,7 +19,9 @@ I see several possible implementations:
 2: Open sidebar tree on selected parent folder
 
 1: Adding context menu on bookmark sidebar (on search-results)
+Tim Nguyen could open an API for a context menu on bookmarks in December 2017, 
 https://bugzilla.mozilla.org/show_bug.cgi?id=1370499
+but it was postponed, because of some trickyness, where we need it: in the sidebar and bookmark library
 https://stackoverflow.com/questions/44118274/add-context-menu-in-bookmark-menu
 
 https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/menus/ContextType :
