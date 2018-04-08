@@ -2,7 +2,7 @@
 
 In the bookmark sidebar, bookmarks search results are provided as a list
 with no information about its location in the tree,
-despite it is likely usefull to access siblings of bookmarks founds.
+despite it is likely usefull to access siblings of bookmarks found.
 
 I see several possible implementations:
 
