@@ -1,4 +1,4 @@
-#WhereUsedBookmarks
+# WhereUsedBookmarks
 
 In the bookmark sidebar, bookmarks search results are provided as a list
 with no information about its location in the tree,
@@ -6,12 +6,12 @@ despite it is likely usefull to access siblings of bookmarks founds.
 
 I see several possible implementations:
 
-    unfold result with all parent folders, then show all childs on folder selection
-    unfold path and show siblings on specific right-click context menu "whereUsed"
-    reload the full bookmark view, still selecting the bookmark from witch the context "whereUsed" menu was clicked on.
-    put the folder-path as link to parent folder as an additional properties information.
+    * unfold result with all parent folders, then show all childs on folder selection
+    * unfold path and show siblings on specific right-click context menu "whereUsed"
+    * reload the full bookmark view, still selecting the bookmark from witch the context "whereUsed" menu was clicked on.
+    * put the folder-path as link to parent folder as an additional properties information.
 
-# Context menu: Copy link with types
+# Context menu: Where Used
 
 1: Adding context menu on bookmark sidebar (on search-results)
 2: show list of parent folder inverted path
